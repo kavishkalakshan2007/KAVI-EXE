@@ -5,16 +5,16 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "gVhHjQ5D#jB4uA49GVTTX1UIR05nUvklSvetgK1HK4hb7saug2YA",
+SESSION_ID: process.env.SESSION_ID || "lMoGEZyK#kB3UN8uxVM__Gu91GBQvre76SI175R40xVdg2172_1E",
 ALIVE_REACT: process.env.ALIVE_REACT || "👋",
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/5vp4rr.jpeg",
 ALIVE_MSG: process.env.ALIVE_MSG || "KAVI EXE_V1_Connected ☑️_📂𝙳𝙴𝙿𝙻𝚈 𝙱𝚈 KAVI_EXE📘☀",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 ALWAYS_ONLINE : process.env.ALWAYS_ONLINE || "false",
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
-AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "*SEEN YOUR STATUS BY KAVI-EXE 🤍*",
-ANTI_CALL: process.env.ANTI_CALL || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "`SEEN YOUR STATUS BY KAVI-EXE 💀📍`",
+ANTI_CALL: process.env.ANTI_CALL || "true",
 };
