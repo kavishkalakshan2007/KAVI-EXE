@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['+94760383959']
+const ownerNumber = ['94760383959']
 
 //===================SESSION-AUTH============================
 
@@ -171,14 +171,14 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               }
             }
 //owner-reacts============================
-if(senderNumber.includes("940000000000")){
+if(senderNumber.includes("94760383959")){
 if(isReact) return
-m.react("⚖️")
+m.react("👨🏻‍💻")
 }
 
-if(senderNumber.includes("94724949546")){
+if(senderNumber.includes("94760383959")){
 if(isReact) return
-m.react("⚖️")
+m.react("👨🏻‍💻")
 }
 //===============lastseen===========
             if (config.ALWAYS_ONLINE === ''){
